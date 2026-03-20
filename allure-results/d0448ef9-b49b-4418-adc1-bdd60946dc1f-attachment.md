@@ -1,0 +1,165 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - generic:
+          - generic:
+            - generic:
+              - button "Open sidebar":
+                - img
+          - generic:
+            - generic:
+              - link:
+                - /url: /
+                - generic:
+                  - img
+            - generic:
+              - generic:
+                - generic:
+                  - img
+            - generic:
+              - link:
+                - /url: /images
+                - generic:
+                  - img
+        - generic [ref=e9]:
+          - heading "Chat history" [level=2] [ref=e10]
+          - navigation "Chat history" [ref=e11]:
+            - generic [ref=e14]:
+              - link "Home" [ref=e15] [cursor=pointer]:
+                - /url: /
+                - img [ref=e16]
+              - button "Close sidebar" [expanded] [ref=e19]:
+                - img [ref=e20]
+            - complementary [ref=e22]:
+              - link "New chat Control Shift O" [ref=e23] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e24]:
+                  - img [ref=e26]
+                  - generic [ref=e29]: New chat
+                - generic [ref=e31]:
+                  - generic "Control" [ref=e32]:
+                    - generic [ref=e33]: Ctrl
+                    - text: +
+                  - generic "Shift" [ref=e34]:
+                    - generic [ref=e35]: Shift
+                    - text: +
+                  - generic [ref=e37]: O
+              - generic [ref=e38] [cursor=pointer]:
+                - generic [ref=e39]:
+                  - img [ref=e41]
+                  - generic [ref=e44]: Search chats
+                - generic [ref=e46]:
+                  - generic "Control" [ref=e47]:
+                    - generic [ref=e48]: Ctrl
+                    - text: +
+                  - generic [ref=e50]: K
+              - link "Images" [ref=e51] [cursor=pointer]:
+                - /url: /images
+                - img [ref=e53]
+                - generic [ref=e56]: Images
+            - generic [ref=e57]:
+              - link "Apps" [ref=e58] [cursor=pointer]:
+                - /url: /apps
+                - img [ref=e60]
+                - generic [ref=e63]: Apps
+              - generic [ref=e64] [cursor=pointer]:
+                - img [ref=e66]
+                - generic [ref=e69]: Deep research
+              - generic [ref=e70] [cursor=pointer]:
+                - img [ref=e72]
+                - generic [ref=e75]: Health
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - paragraph [ref=e79]: Get responses tailored to you
+                - paragraph [ref=e80]: Log in to get answers based on saved chats, plus create images and upload files.
+              - button "Log in" [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: Log in
+      - generic [ref=e85]:
+        - banner:
+          - button "Model selector, current model is 5.2" [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]: ChatGPT
+            - img [ref=e88]
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - button "Log in" [ref=e95] [cursor=pointer]:
+                - generic [ref=e96]: Log in
+              - button "Sign up for free" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]: Sign up for free
+            - button "Open profile menu" [ref=e99] [cursor=pointer]:
+              - img [ref=e101]
+        - main [ref=e103]:
+          - generic [ref=e104]:
+            - heading "What can I help with?" [level=1] [ref=e112]:
+              - generic [ref=e113]: What can I help with?
+            - generic [ref=e114]:
+              - generic [ref=e117]:
+                - generic [ref=e121]:
+                  - paragraph [ref=e125]: Ask anything
+                  - generic [ref=e127]:
+                    - button "Add photos" [ref=e132] [cursor=pointer]:
+                      - img [ref=e133]
+                      - generic [ref=e135]: Attach
+                    - button "Search" [ref=e140] [cursor=pointer]:
+                      - img [ref=e141]
+                      - generic [ref=e144]: Search
+                    - button "Study" [ref=e146] [cursor=pointer]:
+                      - img [ref=e147]
+                      - generic [ref=e150]: Study
+                    - button "Create image" [ref=e152] [cursor=pointer]:
+                      - img [ref=e153]
+                      - generic [ref=e156]: Create image
+                  - button "Start Voice" [ref=e162] [cursor=pointer]:
+                    - img [ref=e164]
+                    - generic [ref=e166]: Voice
+                - button [ref=e167]
+                - button [ref=e168]
+              - list [ref=e173]:
+                - listitem [ref=e174]:
+                  - button "Find simple ways to lower my stress" [ref=e175] [cursor=pointer]:
+                    - img [ref=e176]
+                    - generic [ref=e178]: Find simple ways to lower my stress
+                - listitem [ref=e179]:
+                  - button "Create a plushie of me from my photo" [ref=e180] [cursor=pointer]:
+                    - img [ref=e181]
+                    - generic [ref=e188]: Create a plushie of me from my photo
+                - listitem [ref=e189]:
+                  - button "Tell me what type of movie genre I'd be" [ref=e190] [cursor=pointer]:
+                    - img [ref=e191]
+                    - generic [ref=e193]: Tell me what type of movie genre I'd be
+                - listitem [ref=e194]:
+                  - button "Plan a relaxing evening routine" [ref=e195] [cursor=pointer]:
+                    - img [ref=e196]
+                    - generic [ref=e198]: Plan a relaxing evening routine
+              - generic [ref=e201]:
+                - text: By messaging ChatGPT, an AI chatbot, you agree to our
+                - link "Terms" [ref=e202] [cursor=pointer]:
+                  - /url: https://openai.com/terms
+                - text: and have read our
+                - link "Privacy Policy" [ref=e203] [cursor=pointer]:
+                  - /url: https://openai.com/privacy
+                - text: . See Cookie Preferences.
+    - dialog [ref=e205]:
+      - generic [ref=e206]:
+        - heading "We use cookies" [level=1] [ref=e207]
+        - button "Close" [ref=e208] [cursor=pointer]:
+          - img [ref=e209]
+      - generic [ref=e211]:
+        - paragraph [ref=e212]:
+          - text: We use cookies to help this site function, understand service usage, and support marketing efforts. Visit Manage Cookies to change preferences anytime. View our
+          - link "Cookie Policy" [ref=e213] [cursor=pointer]:
+            - /url: https://openai.com/policies/cookie-policy/
+          - text: for more info.
+        - generic [ref=e214]:
+          - button "Manage Cookies" [ref=e215] [cursor=pointer]:
+            - generic [ref=e216]: Manage Cookies
+          - button "Reject non-essential" [ref=e217] [cursor=pointer]:
+            - generic [ref=e218]: Reject non-essential
+          - button "Accept all" [active] [ref=e219] [cursor=pointer]:
+            - generic [ref=e220]: Accept all
+```

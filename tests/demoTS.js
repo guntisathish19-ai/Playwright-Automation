@@ -1,0 +1,14 @@
+var message = "Hello";
+console.log(message);
+message = "bye";
+console.log(message);
+var num = 20;
+console.log(num);
+var isAcitve = false;
+console.log(isAcitve);
+var numArry = [12, 23, 34];
+console.log(numArry);
+var data = "this could be anything";
+console.log(data);
+data = 345;
+console.log(data);
