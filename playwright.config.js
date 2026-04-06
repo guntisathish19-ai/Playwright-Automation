@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+import { worker } from 'node:cluster';
 
 /**
  * Read environment variables from file.
@@ -14,6 +15,8 @@ import { defineConfig, devices } from '@playwright/test';
  */
 const config = ({
   testDir: './tests',
+  retries: 2,
+  workers: 5,
   /* Run tests in files in parallel */
   timeout: 40*1000,
   expect:{
